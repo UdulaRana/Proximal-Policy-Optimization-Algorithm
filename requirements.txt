@@ -1,0 +1,40 @@
+# Core dependencies
+torch>=1.8.0
+numpy>=1.19.0
+gymnasium>=0.26.0
+matplotlib>=3.3.0
+
+# Optional dependencies for specific features
+tensorboard>=2.8.0              # For logging and visualization  
+wandb>=0.12.0                   # For experiment tracking
+seaborn>=0.11.0                 # For advanced plotting
+plotly>=5.0.0                   # For interactive plots
+tqdm>=4.60.0                    # For progress bars
+
+# Environment dependencies
+gymnasium[classic_control]       # Classic control environments
+gymnasium[box2d]                # Box2D environments (BipedalWalker, etc.)
+gymnasium[atari]                # Atari environments
+pybullet>=3.2.0                 # Physics simulation environments
+
+# Development dependencies (install with pip install -e .[dev])
+pytest>=6.2.0                  # Testing framework
+pytest-cov>=2.12.0             # Coverage testing
+black>=21.0.0                  # Code formatting
+isort>=5.9.0                   # Import sorting
+flake8>=3.9.0                  # Linting
+mypy>=0.910                    # Type checking
+pre-commit>=2.15.0             # Pre-commit hooks
+
+# Documentation dependencies
+sphinx>=4.0.0                  # Documentation generation
+sphinx-rtd-theme>=0.5.0        # Documentation theme
+myst-parser>=0.15.0            # Markdown support for Sphinx
+
+# Optional: Financial examples
+yfinance>=0.1.70               # Yahoo Finance data
+pandas>=1.3.0                  # Data manipulation
+
+# Optional: Advanced visualization
+opencv-python>=4.5.0           # Computer vision utilities
+pillow>=8.0.0                  # Image processing
