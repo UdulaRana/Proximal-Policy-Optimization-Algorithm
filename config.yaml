@@ -1,0 +1,12 @@
+env_name: CartPole-v1
+num_episodes: 1000
+num_epoches: 4
+batch_size: 5
+learning_rate: 0.0003
+gamma: 0.99
+gae_lambda: 0.95
+clip_epsilon: 0.1
+entropy_coeff: 0.01
+value_coeff: 0.5
+log_dir: "runs/ppo"
+
