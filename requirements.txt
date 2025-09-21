@@ -1,6 +1,23 @@
-yaml
-pytorch
-os
-gymnasium
-numpy
+# Core dependencies
+torch>=1.8.0
+numpy>=1.19.0
+gymnasium>=0.26.0
+matplotlib>=3.3.0
+
+# Optional dependencies for specific features
+tensorboard>=2.8.0              # For logging and visualization  
+plotly>=5.0.0                   # For interactive plots
+tqdm>=4.60.0                    # For progress bars
+
+# Environment dependencies
+gymnasium[classic_control]       # Classic control environments
+gymnasium[box2d]                # Box2D environments (BipedalWalker, etc.)
+gymnasium[atari]                # Atari environments
+pybullet>=3.2.0                 # Physics simulation environments
+
+# Development dependencies (install with pip install -e .[dev])
+black>=21.0.0                  # Code formatting
+
+
 collections
+
